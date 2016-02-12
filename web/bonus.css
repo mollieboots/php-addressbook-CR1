@@ -1,0 +1,25 @@
+body {
+    background-image: url("http://www.lomont.org/Software/Graphics/PicSaver/PicSaver.png");
+    background-size: cover;
+    font-family: cursive;
+    color:  #7AFF00;
+}
+
+h1 {
+    font-size: 100px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: cursive;
+    color: #FF0066;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.back {
+    position: absolute;
+    top:0;
+    left:0;
+    color: #FFFF00;
+}

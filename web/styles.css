@@ -29,3 +29,18 @@ form {
 label {
     margin-left: 10px;
 }
+
+.easter_egg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.easter_egg a {
+    color: #F6F6F6;
+}
+
+.easter_egg a:hover {
+    color: #ECECEC;
+    text-decoration: none;
+}

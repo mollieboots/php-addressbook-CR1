@@ -32,6 +32,10 @@
         return $app['twig']->render('delete_all.html.twig');
     });
 
+    $app->get("/easter_egg", function() use ($app) {
+        return $app['twig']->render('easter_egg.html.twig');
+    });
+
     return $app;
 
 ?>
