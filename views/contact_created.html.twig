@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="../styles.css">
+        <meta charset="utf-8">
+        <title>Contact Created</title>
+    </head>
+    <body>
+        <h1>Contact Successfully Created!</h1>
+        <h3>{{ newcontact.name }}</h3>
+        <p>{{ newcontact.number }}</p>
+        <p>{{ newcontact.email }}</p>
+
+        <form action="/">
+            <button class="btn btn-success">Back to Home</button>
+        </form>
+        <form  action="/all_contacts" method="post">
+            <button class="btn btn-primary">See All Contacts</button>
+        </form>
+        <form action="/delete_all" method="post">
+            <button class="btn btn-danger">Clear Contact List</button>
+        </form>
+    </body>
+</html>
